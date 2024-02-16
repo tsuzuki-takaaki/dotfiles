@@ -4,6 +4,7 @@
 /.**
 
 ### not ignore ###
+!/raycast
 !/.zshrc
 
 !/README.md
