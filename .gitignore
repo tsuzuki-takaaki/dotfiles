@@ -1,0 +1,13 @@
+# This is white list(Not black list)
+### all ignore ###
+/*
+/.**
+
+### not ignore ###
+!/.zshrc
+
+!/README.md
+!/LICENSE
+!.gitignore
+!.gitkeep
+
