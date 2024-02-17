@@ -6,6 +6,7 @@
 ### not ignore ###
 !/raycast
 !/.zshrc
+!/nvim
 
 !/README.md
 !/LICENSE
