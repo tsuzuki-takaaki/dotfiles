@@ -1,0 +1,8 @@
+# This is Git's per-user configuration file.
+[user]
+	name = tsuzuki-takaaki
+	email = echo.tsuzuki.takaaki@gmail.com
+[alias]
+	ch = checkout
+	br = branch
+
