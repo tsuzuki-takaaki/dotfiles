@@ -13,3 +13,7 @@ ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=158'
 source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 PROMPT="%B%F{46}%n@%m%f%b %1~ %# "
 
+# Terraform
+autoload -U +X bashcompinit && bashcompinit
+complete -o nospace -C /opt/homebrew/bin/terraform terraform
+
