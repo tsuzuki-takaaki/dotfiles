@@ -1,3 +1,7 @@
+# aliases
+alias la="ls -a"
+alias ll="ls -l"
+
 # nvm
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
