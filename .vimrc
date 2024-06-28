@@ -5,6 +5,7 @@ set shiftwidth=2
 set tabstop=2
 set clipboard=unnamed,autoselect
 syntax on
+colorscheme torte
 
 "Cursors"
 let &t_SI = "\e[6 q"
