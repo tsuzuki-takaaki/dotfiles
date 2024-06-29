@@ -25,3 +25,4 @@ complete -o nospace -C /opt/homebrew/bin/terraform terraform
 source "$(brew --prefix)/share/google-cloud-sdk/path.zsh.inc"
 source "$(brew --prefix)/share/google-cloud-sdk/completion.zsh.inc"
 
+export PATH="/opt/homebrew/opt/llvm/bin:$PATH"

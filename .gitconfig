@@ -5,4 +5,8 @@
 [alias]
 	ch = checkout
 	br = branch
+	ss = status
+	cmt = commit
+	cp = cherry-pick
+	rb = rebase
 
