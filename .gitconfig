@@ -10,3 +10,9 @@
 	cp = cherry-pick
 	rb = rebase
 
+[merge]
+	tool = vimdiff
+	conflictstyle = diff3
+[mergetool]
+	prompt = false
+
