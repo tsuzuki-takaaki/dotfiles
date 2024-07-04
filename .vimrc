@@ -29,6 +29,7 @@ call plug#begin()
 
 Plug 'junegunn/vim-plug'
 Plug 'preservim/nerdtree'
+Plug 'tpope/vim-fugitive'
 
 call plug#end()
 
