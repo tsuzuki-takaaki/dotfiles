@@ -1,6 +1,7 @@
 set number
 set ignorecase
 set hlsearch
+set expandtab
 set shiftwidth=2
 set tabstop=2
 set clipboard=unnamed,autoselect
