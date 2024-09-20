@@ -1,3 +1,4 @@
+# General
 set number
 set ignorecase
 set hlsearch
@@ -7,7 +8,6 @@ set shiftwidth=2
 set clipboard=unnamed,autoselect
 set statusline+=%F
 syntax on
-colorscheme torte
 
 "Cursors"
 let &t_SI = "\e[6 q"
@@ -35,6 +35,9 @@ call plug#begin()
 Plug 'junegunn/vim-plug'
 Plug 'preservim/nerdtree'
 Plug 'tpope/vim-fugitive'
+Plug 'cocopon/iceberg.vim'
 
 call plug#end()
 
+# ColorScheme
+colorscheme iceberg
