@@ -9,6 +9,8 @@
 !/nvim
 !/.vimrc
 !/.tmux.conf
+!/.config/
+!/.config/**
 
 !/README.md
 !/LICENSE
