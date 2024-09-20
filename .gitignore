@@ -11,7 +11,9 @@
 !/.tmux.conf
 !/.config/
 !/.config/**
-!Brewfile
+!/Brewfile
+!/.github/
+!/.github/**
 
 !/README.md
 !/LICENSE

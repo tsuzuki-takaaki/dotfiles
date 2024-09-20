@@ -1,0 +1,12 @@
+name: Validate dotfiles
+on: [push]
+jobs:
+  validate-dotfiles:
+    runs-on: macos-latest
+    steps:
+      - name: Sync repository
+        uses: actions/checkout@v4
+      - name: Run brew install
+        run: which brew # /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+      - name: Run brew bundle
+        run: brew bundle
