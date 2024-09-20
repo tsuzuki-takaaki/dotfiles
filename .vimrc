@@ -41,3 +41,4 @@ call plug#end()
 
 "ColorScheme"
 colorscheme iceberg
+set background=dark
