@@ -10,3 +10,8 @@ jobs:
         run: which brew # /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
       - name: Run brew bundle
         run: brew bundle
+      # IF YOU HAVE TIME, PLEASE DO THIS
+      #- name: Check Ruby Runtime
+      #- name: Check Go Runtime
+      #- name: Check Node Runtime
+      #- name: Check Cargo compiler
