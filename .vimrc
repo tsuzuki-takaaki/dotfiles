@@ -1,4 +1,4 @@
-# General
+"General"
 set number
 set ignorecase
 set hlsearch
@@ -39,5 +39,5 @@ Plug 'cocopon/iceberg.vim'
 
 call plug#end()
 
-# ColorScheme
+"ColorScheme"
 colorscheme iceberg
