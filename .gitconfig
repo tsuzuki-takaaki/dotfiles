@@ -9,6 +9,10 @@
 	cmt = commit
 	cp = cherry-pick
 	rb = rebase
+  stu = stash -u
+  stl = stash list
+  std = stash drop stash@{0}
+  diffs = diff --staged
 
 [merge]
 	tool = vimdiff
