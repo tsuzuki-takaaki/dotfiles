@@ -23,6 +23,9 @@ nnoremap <C-n> :NERDTreeToggle<CR>
 "Custom Command"
 command! Cpfile let @+ = expand("%")
 
+"Auto Command"
+autocmd QuickFixCmdPost *grep* cwindow
+
 "Plugins"
 let data_dir = has('nvim') ? stdpath('data') . '/site' : '~/.vim'
 if empty(glob(data_dir . '/autoload/plug.vim'))
