@@ -8,6 +8,7 @@ set shiftwidth=2
 set clipboard=unnamed,autoselect
 set laststatus=2
 set statusline+=%F
+set cursorline
 syntax on
 
 "Cursors"
