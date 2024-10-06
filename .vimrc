@@ -6,6 +6,7 @@ set expandtab
 set tabstop=2
 set shiftwidth=2
 set clipboard=unnamed,autoselect
+set laststatus=2
 set statusline+=%F
 syntax on
 
