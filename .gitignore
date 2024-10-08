@@ -14,6 +14,7 @@
 !/Brewfile
 !/.github/
 !/.github/**
+!/.pryrc
 
 !/README.md
 !/LICENSE
