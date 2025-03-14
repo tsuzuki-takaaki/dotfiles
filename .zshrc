@@ -30,3 +30,9 @@ export PATH="/opt/homebrew/opt/llvm/bin:$PATH"
 
 ## Rust
 . "$HOME/.cargo/env"
+
+## Maybe plugin compatibility
+export PATH="/opt/homebrew/opt/mysql-client@8.4/bin:$PATH"
+
+## Go
+export PATH=$PATH:$(go env GOPATH)/bin
