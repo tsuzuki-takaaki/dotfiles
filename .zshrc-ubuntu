@@ -1,0 +1,16 @@
+# aliases
+alias la="ls -a"
+alias ll="ls -l"
+
+# shell suggestion
+source "$HOME/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh"
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=158'
+# shell highlighting
+source "$HOME/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
+PROMPT="%B%F{46}%n@%m%f%b %1~ %# "
+
+## Rust
+. "$HOME/.cargo/env"
+
+## Go
+export PATH=$PATH:$(go env GOPATH)/bin

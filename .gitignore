@@ -6,6 +6,7 @@
 ### not ignore ###
 !/raycast
 !/.zshrc
+!/.zshrc-ubuntu
 !/nvim
 !/.vimrc
 !/.tmux.conf

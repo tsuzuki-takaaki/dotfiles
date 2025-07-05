@@ -20,3 +20,5 @@
 [mergetool]
 	prompt = false
 
+[core]
+	editor = vim
