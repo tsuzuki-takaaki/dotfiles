@@ -21,10 +21,6 @@ PROMPT="%B%F{46}%n@%m%f%b %1~ %# "
 autoload -U +X bashcompinit && bashcompinit
 complete -o nospace -C /opt/homebrew/bin/terraform terraform
 
-# Google Cloud
-source "$(brew --prefix)/share/google-cloud-sdk/path.zsh.inc"
-source "$(brew --prefix)/share/google-cloud-sdk/completion.zsh.inc"
-
 # LLVM
 export PATH="/opt/homebrew/opt/llvm/bin:$PATH"
 
@@ -36,3 +32,10 @@ export PATH="/opt/homebrew/opt/mysql-client@8.4/bin:$PATH"
 
 ## Go
 export PATH=$PATH:$(go env GOPATH)/bin
+
+[ -f "/Users/tsuzuki-takaaki/.ghcup/env" ] && . "/Users/tsuzuki-takaaki/.ghcup/env" # ghcup-env
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/tsuzuki-takaaki/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/tsuzuki-takaaki/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/tsuzuki-takaaki/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/tsuzuki-takaaki/google-cloud-sdk/completion.zsh.inc'; fi
