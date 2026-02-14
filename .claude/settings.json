@@ -17,8 +17,8 @@
       "Bash(mkdir:*)",
       "Bash(cd:*)",
 
-      "Read(~/.claude/settings.json)",
-      "Edit(~/.claude/settings.json)",
+      "Read(*)",
+      "Edit(*)",
 
       "Bash(gh issue list:*)",
       "Bash(gh issue view:*)",
