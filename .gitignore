@@ -16,6 +16,8 @@
 !/.github/
 !/.github/**
 !/.pryrc
+!/.claude/
+!/.claude/**
 
 !/README.md
 !/LICENSE
