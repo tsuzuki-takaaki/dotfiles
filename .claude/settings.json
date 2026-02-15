@@ -12,6 +12,8 @@
       "Bash(git log:*)",
       "Bash(git status:*)",
       "Bash(git diff:*)",
+      "Bash(git worktree:*)",
+
       "Bash(npm run:*)",
       "Bash(touch:*)",
       "Bash(mkdir:*)",
@@ -31,6 +33,7 @@
       "Bash(gh pr checks:*)",
       "Bash(gh pr diff:*)",
       "Bash(gh api:*)",
+
       "WebFetch(*)",
       "WebSearch(*)"
     ],
