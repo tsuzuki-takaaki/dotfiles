@@ -5,6 +5,7 @@
     "ENABLE_LSP_TOOL": true
   },
   "permissions": {
+    "defaultMode": "plan",
     "allow": [
       "Bash(git add:*)",
       "Bash(git commit:*)",
