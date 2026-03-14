@@ -17,9 +17,13 @@
       "Bash(git worktree:*)",
 
       "Bash(npm run:*)",
+
       "Bash(touch:*)",
       "Bash(mkdir:*)",
       "Bash(cd:*)",
+      "Bash(ls:*)",
+      "Bash(find:*)",
+      "Bash(grep:*)",
 
       "Read(*)",
       "Edit(*)",
