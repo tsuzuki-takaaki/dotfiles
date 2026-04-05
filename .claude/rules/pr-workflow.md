@@ -7,7 +7,7 @@ After implementation is complete, create a pull request.
 Use the GitHub CLI to create a PR:
 
 ```
-gh pr create --title "<title>" --body "<body>" --assignee tsuzuki-takaaki
+gh pr create --title "<title>" --body "<body>" --assignee @me
 ```
 
 - Do NOT specify `--reviewer`

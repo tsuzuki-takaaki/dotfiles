@@ -12,8 +12,8 @@ When working on a task, always follow this git workflow.
 ## Commit Rules
 
 - Write commit messages in English, starting with an uppercase letter (e.g., `Add temperature alert`)
-- Always include a Co-Authored-By trailer for Claude:
-Co-Authored-By: Claude Sonnet 4.6 noreply@anthropic.com
+- Always include a Co-Authored-By trailer for Claude, using the specific model version you are working with:
+Co-Authored-By: {Claude Model Version} <noreply@anthropic.com>
 
 ## Commit Granularity
 
@@ -37,8 +37,7 @@ Commits must be divided by responsibility. Do not mix unrelated changes in a sin
 
 Linters/formatters may run on pre-commit. In a new worktree, dependencies may not be installed, causing commits to fail.
 
-If a commit fails due to missing dependencies, identify the required package manager and install dependencies in the appropriate directory (e.g., `npm
-install`, `uv sync`, `pip install`, etc.).
+If a commit fails due to missing dependencies, identify the required package manager and install dependencies in the appropriate directory (e.g., `npm install`, `uv sync`, `pip install`, etc.).
 
 ## Environment Variables
 
