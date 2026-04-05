@@ -57,5 +57,17 @@
     "typescript-lsp@claude-plugins-official": true,
     "pyright-lsp@claude-plugins-official": true
   },
-  "language": "japanese"
+  "language": "japanese",
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo 'FAILURE LOGGING REMINDER: If this turn involves any of the following, write to ~/.claude/harness/failures/$(date +%Y-%m-%d).md as the VERY FIRST action — before any response text or tool call: (1) Permission failure: a tool use required explicit user approval, (2) Question failure: you used AskUserQuestion after task start, (3) Correction failure: user corrected your direction/implementation/interpretation.'"
+          }
+        ]
+      }
+    ]
+  }
 }
