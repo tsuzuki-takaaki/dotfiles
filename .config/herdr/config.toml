@@ -1,0 +1,10 @@
+# herdr configuration
+# Place this file at ~/.config/herdr/config.toml
+
+[keys]
+# Same as herdr's default, kept explicit to mirror tmux's default prefix.
+prefix = "ctrl+b"
+
+# Match tmux's builtin pane split keys (% for vertical, " for horizontal).
+split_vertical = "prefix+%"
+split_horizontal = "prefix+\""
